@@ -499,7 +499,7 @@
         btnLogin = document.getElementById("btnEntrar");
         btnLogin.addEventListener("click", () => {
             cargarLogin();
-            window.location.href = "../index.html";
+            window.location.href = "index.html";
         });
 
         cargarValidacionesCrearCuenta(form);
